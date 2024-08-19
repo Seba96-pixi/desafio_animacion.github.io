@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - E-CARS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Catálogo de Electric Cars</h1>
+            <div class="price-filter">
+                <label for="price">Filtrar por precio:</label>
+                <select id="price" name="price">
+                    <option value="all">Todos</option>
+                    <option value="low">Menos de $20,000</option>
+                    <option value="mid">Entre $20,000 y $50,000</option>
+                    <option value="high">Más de $50,000</option>
+                </select>
+            </div>
+            <img src="assets/imgs/logo_desaf.png" class="logo">
+        </div>     
+    </header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="ofertas.html">Ofertas</a></li>
+                <li><a href="#contact-section">Contactos</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <!-- Ejemplo de tarjeta con imagen y detalles -->
+            <div class="card" data-price="low">
+                <img src="assets/imgs/mazda _mx30.jpg"Mazda MX-30">
+                <div class="card-content">
+                    <h3>Modelo: Mazda MX-30</h3>
+                    <p class="price">$19,999</p>
+                    <button class="buy-button">Ver más</button>
+                </div>
+            </div>
+            <div class="card" data-price="mid">
+                <img src="assets/imgs/tesla.jpg" alt="Tesla Model 3">
+                <div class="card-content">
+                    <h3>Modelo: Tesla Model 3</h3>
+                    <p class="price">$35,000</p>
+                    <button class="buy-button">Ver más</button>
+                </div>
+            </div>
+            <div class="card" data-price="high">
+                <img src="assets/imgs/BYD-Dolphin-Mini.jpg" alt="Audi e-tron">
+                <div class="card-content">
+                    <h3>Modelo: BYD e-tron</h3>
+                    <p class="price">$75,000</p>
+                    <button class="buy-button">Ver más</button>
+                </div>
+            </div>
+            <div class="card" data-price="high">
+                <img src="assets/imgs/mercedes.jpg" alt="Audi e-tron">
+                <div class="card-content">
+                    <h3>Modelo: Mercedes x-tron</h3>
+                    <p class="price">$85,000</p>
+                    <button class="buy-button">Ver más</button>
+                </div>
+            </div>
+            <div class="card" data-price="high">
+                <img src="assets/imgs/volvo.jpg" alt="Audi e-tron">
+                <div class="card-content">
+                    <h3>Modelo: Volvo e-tron</h3>
+                    <p class="price">$95,000</p>
+                    <button class="buy-button">Ver más</button>
+                </div>
+            </div>
+            <div class="card" data-price="high">
+                <img src="assets/imgs/chevrolet.jpg" alt="Audi e-tron">
+                <div class="card-content">
+                    <h3>Modelo: Chevrolet e-tron</h3>
+                    <p class="price">$100,000</p>
+                    <button class="buy-button">Ver más</button>
+                </div>
+            </div>
+            <div class="card" data-price="high">
+                <img src="assets/imgs/toyota.jpg" alt="Audi e-tron">
+                <div class="card-content">
+                    <h3>Modelo: Toyota e-tron</h3>
+                    <p class="price">$200,000</p>
+                    <button class="buy-button">Ver más</button>
+                </div>
+            </div>
+            <div class="card" data-price="high">
+                <img src="assets/imgs/bmw.jpg" alt="Audi e-tron">
+                <div class="card-content">
+                    <h3>Modelo: BMW e-tron</h3>
+                    <p class="price">$120,000</p>
+                    <button class="buy-button">Ver más</button>
+                </div>
+            </div>
+            <div class="card" data-price="high">
+                <img src="assets/imgs/hyundai.jpg" alt="Audi e-tron">
+                <div class="card-content">
+                    <h3>Modelo: Hyundai e-tron2</h3>
+                    <p class="price">$65,000</p>
+                    <button class="buy-button">Ver más</button>
+                </div>
+            </div>
+            <div class="card" data-price="high">
+                <img src="assets/imgs/tesla.jpg" alt="Audi e-tron">
+                <div class="card-content">
+                    <h3>Modelo: Tesla e-tron</h3>
+                    <p class="price">$55,000</p>
+                    <button class="buy-button">Ver más</button>
+                </div>
+            </div>
+            <!-- Agrega más tarjetas según sea necesario -->
+        </div>
+    </div>
+    <footer id="contact-section">
+        <p>2024 Distribuidora de Productos. Todos los derechos reservados.</p>
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/sebastianomarjaque/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Seba96-pixi" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
